@@ -31,4 +31,4 @@ if __name__ == '__main__':
         serve(app, host='0.0.0.0', port=port)
     else:
         print(f'Starting development server on http://0.0.0.0:{port}')
-        app.run(host='0.0.0.0', port=port, debug=True)
+        app.run(host='0.0.0.0', port=port)
